@@ -1,0 +1,92 @@
+/*MAIN BODY*/
+#body {
+    background-color: #401F71;
+    font-family: "IBM Plex Mono";
+}
+
+/*-----------------------------------------*/
+/*FONTS*/
+.ibm-plex mono-bold {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .ibm-plex mono-medium {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+/*-----------------------------------------*/
+/*CONTAINERS*/
+  .container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ------------------------------------ */
+/* SECTION 1 */
+
+#section1 {
+    background-color: #824D74;
+    border-radius: 25px;
+    display: flex;
+    flex: 1;
+}
+
+ul {
+    margin-left: auto;
+    list-style: none;
+}
+
+#skills {
+    list-style: none;
+    align-self: center;
+}
+#heading {
+    margin: 40px;
+    justify-content: center;
+    font-family: "IBM Plex Mono";
+}
+
+#image {
+    margin-right: auto;
+    justify-self: center;
+
+}
+
+/*-----------------------------------------*/
+/* SECTION 2 */
+
+#section2{
+    background-color: #BE7B72;
+    align-content: center;
+    flex: 2;
+}
+
+h1 {
+    font-family: "IBM Plex Mono";
+}
+
+h3 {
+    font-family: "IBM Plex Mono";
+}
+
+
+
+/*---------------------------------------------*/
+/* SECTION 3 */
+
+#section3 {
+    background-color: #FDAF7B;
+}
+
+/*----------------------------------------------*/
+/* SECTION 4 */
+
+#section4 {
+    background-color: #824D74;
+}
+
